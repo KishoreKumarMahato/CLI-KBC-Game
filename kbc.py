@@ -1,3 +1,25 @@
+#import random and time module
+import random
+import time
+#print * 80 times
+for i in range(80):
+    print("*",end="")
+    time.sleep(0)
+
+print()
+print("\t\t\t        Welcome to")
+print("\t\t\tKaun Banega Crorepati")
+for i in range(80):
+    print("*",end="")
+    time.sleep(0)
+print()
+a=input("\tEnter Your Name - ")
+for i in range(80):
+    print("*",end="")
+    time.sleep(0)
+print()
+print("\n\t\tOK ",a," Let's Start The Game")
+time.sleep(1)
 from questions import QUESTIONS
 
 
